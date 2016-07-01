@@ -49,7 +49,7 @@ def decodeCifar(fileName):
         # imagedata = np.uint8(np.array(image)).reshape([3, IMAGE_SIZE, IMAGE_SIZE]);
         data = Image.fromarray(imagedata)
 
-        data.save("/home/mqq/willqian/FlowerRecognize/test/"+str(index)+".jpg")
+        data.save("/home/test/FlowerRecognize/test/"+str(index)+".jpg")
 
         index=index+1
 
